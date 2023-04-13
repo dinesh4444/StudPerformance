@@ -75,6 +75,7 @@ Create setup.py file which store the meta data of your project
 - After that you have to create source files which containes init, logger, exception, utils
   files for next operations.
 * Logger.py
+-------------------------------------------------------------------------------------
 
     import sys
     from src.logger import logging
@@ -97,7 +98,7 @@ Create setup.py file which store the meta data of your project
 ----------------------------------------------------------------------------------------
 
 * Exception.py
-
+--------------------------------------------------------------------------------------
     import sys
     from src.logger import logging
 
@@ -142,9 +143,12 @@ The training pipeline is responsible for orchestrating the various steps involve
 The prediction pipeline handles the deployment and use of the trained machine learning model in real-world scenarios. It typically involves loading the serialized model, processing new data for prediction, and using the trained model to make predictions. The prediction pipeline ensures that the trained model is effectively utilized to make accurate predictions on new data.
 
 #### __init__.py file: 
-The __init__.py Python file is typically used as an entry point for the pipelines and serves as a central location for initializing and configuring various components of the end-to-end machine learning project. It may contain import statements, configuration settings, and initialization code for setting up the training and prediction pipelines.
+The init.py Python file is typically used as an entry point for the pipelines and serves as a central location for initializing and configuring various components of the end-to-end machine learning project. It may contain import statements, configuration settings, and initialization code for setting up the training and prediction pipelines.
 
-These pipelines and the __init__.py file work together to create a complete end-to-end machine learning project. The training pipeline orchestrates the training process, while the prediction pipeline handles the deployment and use of the trained model. The "init.py" file serves as a central configuration and initialization point for the entire project. This modular and organized approach allows for efficient development, training, and deployment of machine learning models in real-world applications.
-----------------------------------------------------------------------------------------
+These pipelines and the ini.py file work together to create a complete end-to-end machine learning project. The training pipeline orchestrates the training process, while the prediction pipeline handles the deployment and use of the trained model. The "init.py" file serves as a central configuration and initialization point for the entire project. This modular and organized approach allows for efficient development, training, and deployment of machine learning models in real-world applications.
+
+------------------------------------------------------------------------------------------
+
+
 
 
