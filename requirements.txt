@@ -6,4 +6,7 @@ matplotlib
 scikit-learn
 catboost
 dataclasses
+xgboost
+dill 
+flask
 #-e .
